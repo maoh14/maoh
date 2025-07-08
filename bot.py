@@ -29,8 +29,8 @@ def main():
 
 import time
 def send_telegram_message(message):
-    TOKEN = 'your_bot_token_here'
-    CHAT_ID = 'your_chat_id_here'
+    TOKEN = '7743733730:AAHUwydxZJ9vCgFs0RYmgSbVOF2uyM82SCU'
+    CHAT_ID = '7568631450'
     url = f'https://api.telegram.org/bot{TOKEN}/sendMessage'
     payload = {'chat_id': CHAT_ID, 'text': message}
     requests.post(url, data=payload)
