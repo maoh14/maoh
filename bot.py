@@ -35,17 +35,13 @@ def send_telegram_message(message):
     payload = {'chat_id': CHAT_ID, 'text': message}
     requests.post(url, data=payload)
 
-def main_loop():
-    while True:
-        main()  # your existing main function
-        output = "Script ran successfully!"
-        send_telegram_message(output)
-    
-        print("Sleeping for 5 minutes...")
-        time.sleep(5 * 60)  # sleep for 5 minutes
+
 
 if __name__ == "__main__":
-    main_loop()
+    main()
+    output = "Script ran successfully!"
+    send_telegram_message(output)
+    
 
 # Example usage:
   
