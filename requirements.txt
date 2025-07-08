@@ -1,4 +1,3 @@
-time
 pandas
 binance.client
 
