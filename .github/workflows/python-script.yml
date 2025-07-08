@@ -23,4 +23,4 @@ jobs:
           pip install -r requirements.txt || true  # Skip if file doesn't exist
 
       - name: Run Python script
-        run: bot.py
+        run: python bot.py
