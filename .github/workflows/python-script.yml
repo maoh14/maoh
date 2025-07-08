@@ -34,5 +34,5 @@ jobs:
       - name: Run Python script
         run: python bot.py
         env:
-          TELEGRAM_TOKEN: ${{7743733730:AAHUwydxZJ9vCgFs0RYmgSbVOF2uyM82SCU }}
-          TELEGRAM_CHAT_ID: ${{ 7568631450 }}
+          TELEGRAM_TOKEN: ${{7743733730:AAHUwydxZJ9vCgFs0RYmgSbVOF2uyM82SCU}}
+          TELEGRAM_CHAT_ID: ${{7568631450}}
